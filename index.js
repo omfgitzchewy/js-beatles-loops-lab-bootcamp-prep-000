@@ -11,7 +11,7 @@ function theBeatlesPlay(arrMus, arrIns) {
 function johnLennonFacts(arrJL) {
   var exc = []
   var i = 0
-  while (i > arrJL.length){
+  while (i < arrJL.length){
     var string = arrJL[i] + "!!!"
     exc.push(string)
     i++;
